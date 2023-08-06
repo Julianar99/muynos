@@ -3,9 +3,15 @@
     width: 80%;
     background: rgb(236, 240, 244);
 }
+.article{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 18px;
+
+}
 aside{
     float: left;
     width: 20%;
-    height: 1347px;
+    height: 1556px;
     background: #d5d503;
-}
+    }
