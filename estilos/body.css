@@ -1,0 +1,11 @@
+#content{
+    float: left;
+    width: 80%;
+    background: rgb(236, 240, 244);
+}
+aside{
+    float: left;
+    width: 20%;
+    height: 1347px;
+    background: #d5d503;
+}
