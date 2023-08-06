@@ -5,6 +5,7 @@ footer{
     padding: 1re;
     width: 100%;
     height: 50px;
+    line-height: 17px;
 }
 .clearfix{
     clear:both
