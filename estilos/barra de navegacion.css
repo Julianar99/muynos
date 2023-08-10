@@ -1,6 +1,5 @@
 nav ul{
     text-align: center;
-    justify-content: space-evenly;
     background-color: #de1ac6;
     height: 25px;
     list-style: none;
@@ -21,6 +20,6 @@ a:hover{
 }
 nav{
     hover
-background-color:#d5d503;
+background-color:#d5d503:
 color: black;
 }
