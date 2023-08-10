@@ -1,5 +1,6 @@
 nav ul{
     text-align: center;
+    justify-content: space-evenly;
     background-color: #de1ac6;
     height: 25px;
     list-style: none;
