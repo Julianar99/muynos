@@ -3,10 +3,12 @@ nav ul{
      display: flex;
      text-align: center;
      background-color: #de1ac6;
-     height: 50px;
+     height: 55px;
      width: 100%;
      line-height: 45px;
      border: 1px solid black;
+     font: size 900px;
+     font-style: italic;
      list-style: none;
      margin: 0;
     padding: 0;
