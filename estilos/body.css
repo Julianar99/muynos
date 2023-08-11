@@ -8,3 +8,9 @@ body{
     margin: 0px auto;
     border: 1px solid black;
 }
+header{
+    background:  red;
+    height: 100px;
+    width: 100%;
+
+}
