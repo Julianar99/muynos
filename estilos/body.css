@@ -50,3 +50,6 @@ aside{
     background-color: yellow; padding: 1em;
     border-bottom-width: 700px; 
 }
+.section{
+    display: flex;
+}
