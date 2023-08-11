@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="../estilos/envios.css">
+    <link rel="stylesheet" href="../estilos/contacto.css">
 </head>
 <body>
     <header>
-    <form action="4" method="accion">
-        nombre:<input type="text" name="Nombre" placeholder="Nombre">
-        apellido:<input type="text" name="Apellido" placeholder="Apellido">
+    <form action class="letra" method="">
+        <table border="2">
+        Nombre:<input type="text" name="Nombre" placeholder="Nombre">
+        Apellido:<input type="text" name="Apellido" placeholder="Apellido">
         <br>
-        indique sexo: <br>
+        Indique sexo: <br>
         Masculino: <input type="radio" name="sexo">
         Femenino: <input type="radio" name="sexo">
         Prefiere no decir: <input type="radio" name="sexo">
         <br>
         Indique cual es su consulta a continuacion: <br>
         <input type="checkbox" name="tiempo estimado"> Tiempo estimdo <br>
-        <input type="checkbox" name="detalles"> detalles <br>
-        <input type="checkbox" name="forma de pago"> forma de pago <br>
-        <input type="checkbox" name="otra"> otra <br>
+        <input type="checkbox" name="detalles"> Detalles <br>
+        <input type="checkbox" name="forma de pago"> Forma de pago <br>
+        <input type="checkbox" name="otra"> Otra <br>
         Dejar un comentario:<br>
-        <textarea cols="20" rows="5"></textarea>
+        <textarea cols="40" rows="20"></textarea>
+        </table>
         <br>
         <input type="submit" value="enviar">
         <input type="reset"  value="cancelar">
+        </table>
     </form>
     </header>
 </body>
