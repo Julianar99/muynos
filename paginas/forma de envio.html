@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<head>FORMAS DE ENVIO
-<link rel="stylesheet" href="../estilos/envios.css">
+<head><p style="color: #de1ac6;">FORMAS DE ENVIO</p>
 </head>
 <body>
     <header>
-        <form action="" method="">
-            nombre: <input type="text" name="nombre" placeholder="nombre">
+        <form class="envio" action="" method=""> Nombre: <input type="text" name="nombre" placeholder="nombre">
             <br>
-            apellido: <input type="text" name="apellido" placeholder="apellido">
+            Apellido: <input type="text" name="apellido" placeholder="apellido">
             <br>
-            codigo posta: <textarea cols="2" rows="1"></textarea><br>
-            seleccione su pais:
+            Codigo postal: <textarea cols="4" rows="1"></textarea>
+            <br>
+
+            Seleccione su pais:
+            <br>
             <select id="pais" name="pais">
                 <option value="arg">argentina</option>
                 <option value="bra">brazil</option>
@@ -18,13 +19,17 @@
                 <option value="chi">chile</option>
             </select>
             <br>
+
+            Seleccione si es de PBA o del Interior:
+            <br>
             <select id="provincia" name="provincia">
                 <option value="buenos aires">buenos aires</option>
                 <option value="interior">interior</option>
+                <br>
             </select>
             <br>
             Calcula tu costo de envio a continuacion:<br>
-            <a href="https://www6.oca.com.ar/plataformaenvios/">ir a oca</a>
+            <a href="https://www6.oca.com.ar/plataformaenvios/">Ir a oca</a>
             <br>
             <input type="submit" value="enviar">
             <input type="reset" value="cancelar">

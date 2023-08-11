@@ -20,9 +20,11 @@ footer{
     line-height: 50px;
 }
 aside{
-    float: left;
     width: 20%;
     background: greenyellow;
     min-height: 500px;
     padding: 10px;
+}
+.h2h2{
+    border-style: dashed;
 }
