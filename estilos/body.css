@@ -19,3 +19,6 @@ aside{
     height: 1470px;
     background: #d5d503;
     }
+    section{
+        display: flex;
+    }
