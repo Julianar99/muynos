@@ -7,7 +7,7 @@ body{
 #container{
     width: 100%;
     margin: 0px auto;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 .clear{
     clear: both;
@@ -21,10 +21,29 @@ footer{
 }
 aside{
     width: 20%;
-    background: greenyellow;
+    background: rgb(38, 102, 23);
     min-height: 500px;
     padding: 10px;
 }
 .h2h2{
     border-style: dashed;
+}
+.box{
+    width: 800px;height: 320px;border-radius: 10px;
+    background-color: rgb(69, 207, 35); padding: 1em;
+}
+.box1{
+    width: 800px;height: 400px; border-radius: 10px;
+    background-color: red; padding: 1em;
+    border-bottom-width: 700px; 
+}
+.box2{
+    width: 800px;height: 400px; border-radius: 10px;
+    background-color: orange; padding: 1em;
+    border-bottom-width: 700px; 
+}
+.box3{
+    width: 800px;height: 400px; border-radius: 10px;
+    background-color: yellow; padding: 1em;
+    border-bottom-width: 700px; 
 }
