@@ -23,12 +23,8 @@ main{
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
-
 }
-aside{
-    float: left;
-        border: 2px solid black;
-    }
+
 
 #container{
     width: 100%;
@@ -45,7 +41,9 @@ footer{
     height: 50px;
     line-height: 50px;
 }
-
+.aside{
+    float: inline-end;
+}
 .h2h2{
     border-style: dashed;
 }
