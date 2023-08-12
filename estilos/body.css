@@ -9,9 +9,26 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
 }
+main{
+    margin: 0,5rem;
+    padding: 0,5rem;
+    width: 70%;
+}
 
-.cuadro
+.contenedor{
+    border: 2px solid red;
+    padding: 1rem;
+    display: flex;
+    justify-content:start ;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 
+}
+aside{
+    float: left;
+        border: 2px solid black;
+    }
 
 #container{
     width: 100%;
@@ -28,33 +45,38 @@ footer{
     height: 50px;
     line-height: 50px;
 }
-aside{
-    width: 20%;
-    background: rgb(38, 102, 23);
-    min-height: 500px;
-    padding: 10px;
-}
+
 .h2h2{
     border-style: dashed;
 }
-.box{
+.box{ flex-direction: column;
+    align-items:start;
+    display: flex;
     font-style: italic;
     width: 800px;height: 320px;border-radius: 10px;
     background-color: rgb(69, 207, 35); padding: 1em;
 }
-.box1{
+.box1{ flex-direction: column;
+    align-items:start;
+    display: flex;
     font-style: italic;
     width: 800px;height: 320px; border-radius: 10px;
     background-color: red; padding: 1em;
     border-bottom-width: 700px; 
 }
-.box2{
+.box2{ flex-direction: column;
+    align-items: start;
+    display: flex;
     font-style: italic;
     width: 800px;height: 320px; border-radius: 10px;
     background-color: orange; padding: 1em;
     border-bottom-width: 700px; 
 }
 .box3{
+    flex-direction: column;
+    align-items:start;
+    display: flex;
+    justify-content: center;
     font-style: italic;
     width: 800px;height: 320px; border-radius: 10px;
     background-color: yellow; padding: 1em;
