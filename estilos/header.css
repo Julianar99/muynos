@@ -1,9 +1,12 @@
 header{
-    background: #DBF4E6  ;
-    height: 300px;
-    width: 100%;
-    margin: 0px auto;
-    text-align: center;
-    border-bottom: 3px dashed #cdda61;
+    color: black;
+    font-weight:lighter;
+    font-style: italic;
+      background: #b3dbc4  ;
+      height: 300px;
+      width: 100%;
+      margin: 0px auto;
+      text-align: center;
+      border-bottom: 3px dashed #cdda61;
 
 }
