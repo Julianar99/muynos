@@ -2,7 +2,7 @@ nav ul{
     flex-direction: row;
      display: flex;
      text-align: center;
-     background-color: #de1ac6;
+     background-color: #ddf5ae;
      height: 55px;
      width: 100%;
      line-height: 45px;
@@ -20,6 +20,7 @@ nav li{
     margin-right: 2rem;
 }
 nav a{
+    border-right:1px solid white;
     padding: 5px 30px;
     color: black;
     text-decoration: none;
@@ -30,7 +31,7 @@ flex-wrap: wrap;
 
 }
 a:hover{
-    background-color: #d5d503;
+    background-color: #BAD252;
     color: black;
 }
 nav{
