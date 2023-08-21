@@ -80,17 +80,28 @@
 </article>
     </section>
 <p><a href="https://www.instagram.com/muynosotras_ok/"<font size=4>ir a pagina central</font></p></a>
-<form class=" h2h2">
-    nombre:<input type="text" name="nombre" placeholder="Nombre">
-    <br>
-    email:<input type="email" name="email"  placeholder="Email">
-    <br>
-    <textarea cols="45" rows="3">consulta:
-    </textarea><br>
-    <input type="submit" name="Enviar">
-    <input type="reset" name="Cancelar">
-    <br>
-</form>
+<form>
+    <fieldset disabled="">
+      <legend>Contacto</legend>
+      <div class="mb-3">
+        <label for="nombre y apellido" class="nombre">Nombre y Apellido</label>
+        <input type="text" id="apellido" class="apellido" placeholder="nombre y apellido">
+      </div>
+      <div class="mb-3">
+        <label for="disabledSelect" class="form-label">Email</label>
+        <input type="email" id="email" class="email" placeholder="email">
+      </div>
+      <div class="mb-3">
+        <div class="tilde">
+          <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled="">
+          <label class="form-check-label" for="disabledFieldsetCheck">
+            esta seguro?
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </fieldset>
+  </form>
 <aside>
     <P>
         ACA DEJAREMOS LAS PROXIMAS NOVEDADES
