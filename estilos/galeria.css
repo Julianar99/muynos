@@ -1,6 +1,15 @@
 html{
     height: 100%;
 }
+header{height: 100px;
+    width: 100%;
+    margin: 0%;
+    
+    
+}
 main{
-    background-color: #a6c8e9;
+    background-color: #d3e8f0;
+    font-style: italic;
+    font-size: medium;
+    font-
 }
