@@ -16,11 +16,13 @@ nav ul{
     display: flex;
     text-align: center;
     background-color: #ddf5ae;
+    color: black;
+    font-weight:325px;
     padding: 1px;
     width: 100%;
     line-height: 45px;
     border: 1px solid black;
-    font-size: 15px;
+    font-size: 17px;
     font-style: italic;
     list-style: none;
     margin-bottom: 100px;
@@ -84,20 +86,13 @@ main{
 .clear{
     clear: both;
 }
-/*footer{
-    margin-top: auto;
-    background: #f2f0a9;
-    color: black;
-    text-align: center;
-    height: 35px;
-    line-height: 50px;
-}*/
 .h2h2{
     border-style: dashed;
 }
 .box{ flex-direction: column;
     align-items:start;
     display: flex;
+    color: black;
     font-style: italic;
     width: 800px;height: 400px;border-radius: 10px;
     background-color: #EE9392; padding: 1em;
@@ -105,6 +100,7 @@ main{
 .box1{ flex-direction: column;
     align-items:start;
     display: flex;
+    color: black;
     font-style: italic;
     width: 800px;height: 400px; border-radius: 10px;
     background-color: #FED4A7; padding: 1em;
@@ -113,6 +109,7 @@ main{
 .box2{ flex-direction: column;
     align-items: start;
     display: flex;
+    color: black;
     font-style: italic;
     width: 800px;height: 400px; border-radius: 10px;
     background-color: #C5D7CB; padding: 1em;
@@ -123,6 +120,7 @@ main{
     align-items:start;
     display: flex;
     justify-content: center;
+    color: black;
     font-style: italic;
     width: 800px;height: 400px; border-radius: 10px;
     background-color: #CFE2E8; padding: 1em;
