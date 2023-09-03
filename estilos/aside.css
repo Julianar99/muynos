@@ -1,7 +1,6 @@
 aside{
     float: inline-end left;
     background: pink;
-    min-height: 200px;
-    min-height: 300px;
+    min-height: 100px;
     padding: 10px;
 }
