@@ -11,17 +11,17 @@ body{
     width: 100%;
     
 }
-/*nav ul{
+nav ul{
     flex-direction: row;
     display: flex;
     text-align: center;
     background-color: #ddf5ae;
-    height: 70px;
+    height: 100px;
     padding: 1px;
     width: 100%;
     line-height: 45px;
     border: 1px solid black;
-    font-size: 10px;
+    font-size: 15px;
     font-style: italic;
     list-style: none;
     margin-bottom: 100px;
@@ -56,7 +56,7 @@ nav{
 
 .clearfix{
    clear: both;
-}*/
+}
 
 main{
     margin: 0,5rem;
