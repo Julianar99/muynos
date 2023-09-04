@@ -31,7 +31,7 @@ switch (comida) {
             break;
             default:
                 console.log("elija en el menu carne , percado o verdura");
-                for ( let i=0 ; i=4){
+                for ( let i=0 ; i=4;){
                     console.log(menu[i])
                 }
 }
