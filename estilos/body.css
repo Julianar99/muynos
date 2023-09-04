@@ -59,11 +59,11 @@ nav{
    clear: both;
 }
 
-main{
-    /*margin: 0,5rem;
-    padding: 0,5rem;*/
+/*main{
+    margin: 0,5rem;
+    padding: 0,5rem;
     width: 70%;
-}
+}*/
 
 .contenedor{
     border: 2px solid #FDE780;
@@ -75,7 +75,10 @@ main{
     flex-wrap: wrap;
 }
 main{
-    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: left;
+    width: 70%;
     background:#f7f8f0;
 }
 
@@ -83,9 +86,7 @@ main{
     width: 100%;
     margin: 0px auto;
 }
-.clear{
-    clear: both;
-}
+
 .h2h2{
     border-style: dashed;
 }
@@ -125,4 +126,14 @@ main{
     width: 800px;height: 400px; border-radius: 10px;
     background-color: #CFE2E8; padding: 1em;
     border-bottom-width: 700px; 
+}
+
+.aside{
+    float: right;
+    display: flex;
+    justify-content: right;
+    background: pink;
+    height: 1748px;;
+    width: 30%;
+    padding: 10px;
 }
