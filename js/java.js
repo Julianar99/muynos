@@ -16,7 +16,7 @@ if (topping[0]) {
      let resultadosuma3= helado + top3;
     console.log("precio: ",resultadosuma3);
 } 
-else (topping[3]);{ 
+else { 
     let resultadosma4= helado + top4;
     console.log("precio: ",resultadosma4 );
 }
