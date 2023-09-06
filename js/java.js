@@ -10,4 +10,5 @@ const interval = setInterval(()=>{
 
     document.title=alert?'Muy Nosotras':'(1) New follower';
     alert=!alert;
-},1000)
+},1000);
+
